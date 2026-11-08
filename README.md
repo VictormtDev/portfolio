@@ -2,23 +2,18 @@
 
 Meu portfólio pessoal de desenvolvedor back-end, com visual inspirado em fliperamas.
 
-**Stack:** React, TypeScript e Vite.
+**Acesse:** https://portfolio-victor-ce63.vercel.app
 
-## Rodando localmente
+**Stack:** React, TypeScript e Vite, com deploy na Vercel.
 
-```bash
-npm install
-npm run dev
-```
-
-Para gerar a versão de produção, use `npm run build`.
-
-## Editando o conteúdo
+## Atualizando o site
 
 Todo o texto do site vem de dois arquivos:
 
 - [`src/data/profile.ts`](src/data/profile.ts): nome, descrição, links e habilidades
 - [`src/data/projects.ts`](src/data/projects.ts): lista de projetos
+
+Cada push na branch `main` publica a nova versão automaticamente.
 
 ## Contato
 
