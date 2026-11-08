@@ -23,8 +23,9 @@ export const profile = {
 export type SkillGroup = { title: string; items: string[] }
 
 export const skills: SkillGroup[] = [
-  { title: 'Back-end', items: ['Node.js', 'TypeScript', 'APIs REST'] },
-  { title: 'Banco de dados', items: ['PostgreSQL', 'SQL'] },
-  { title: 'Front-end', items: ['React'] },
-  { title: 'Ferramentas', items: ['Git', 'GitHub'] },
+  { title: 'Linguagens', items: ['TypeScript', 'JavaScript', 'SQL'] },
+  { title: 'Back-end', items: ['Node.js', 'Express', 'APIs REST'] },
+  { title: 'Banco de dados', items: ['PostgreSQL', 'SQLite', 'Prisma'] },
+  { title: 'Front-end', items: ['React', 'HTML', 'CSS'] },
+  { title: 'Ferramentas', items: ['Git', 'GitHub', 'Docker', 'Electron'] },
 ]
